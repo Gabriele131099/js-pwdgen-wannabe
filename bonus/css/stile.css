@@ -1,0 +1,169 @@
+@media all and (max-width:800px) {
+
+    .desktop{
+        display: none;
+    }
+    .burger
+    {
+        display: block;
+    }
+    .centra
+    {
+        margin: auto;
+    }
+    .modelli img
+    {
+        width: 300px;   
+    }
+}
+
+@media all and (min-width:801px) {
+
+    .burger
+    {
+        display: none;
+    }
+    
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+     
+}
+.margin-top
+{
+    margin-top: 50px;
+}
+.sfondo-home
+{
+    background-color: rgba(128, 104, 104, 1);
+    font-family: 'Times New Roman', Times, serif;
+}
+ /* nav */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(65, 20, 20);
+    height: 100px;
+
+}
+
+ .logo-container
+ {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .logo-container img
+ {
+     width: 50px;
+ }
+
+ .logo-container h3
+ {
+     color: whitesmoke;
+ }
+
+ .burger
+ {
+     display: none;
+ }
+ .menu
+ {
+    align-items: center;
+
+ }
+ nav .menu>ul
+ {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .menu ul
+ {
+     list-style-type: none;
+ }
+
+ .menu ul .tenda
+ {
+    display: none;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    z-index: 1001;
+
+
+ }
+
+ .menu>ul>li:hover .tenda
+ {
+    display: block;
+ }
+
+ .menu >ul>li
+ {
+     padding: 10px 15px;
+
+ }
+.menu>ul>li>a
+{
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+ .bottoni-nav
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .bottoni-nav button
+ {
+     padding: 10px 15px;
+     background-color: brown;
+     color: whitesmoke;
+     border: black 1px solid ;
+     margin-left: 15px ;
+ }
+
+/* main */
+
+main{
+}
+
+.articolo
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba( 219, 219, 219, 0.5);
+    align-items: center;
+
+
+    
+}
+
+
+
+/* modelli section */
+
+
+.modelli ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    justify-content: space-between;
+}
+
+
