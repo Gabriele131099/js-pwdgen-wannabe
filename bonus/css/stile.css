@@ -155,7 +155,8 @@ main{
     margin: 10px;
     padding: 10px 15px;
     border-radius: 50px;
-    border: none;
+    border: 1px solid transparent;
+    outline: none;
 }
 .articolo button
 {
@@ -163,9 +164,11 @@ main{
     color: white;
 }
 
-.articolo input:active
+.articolo input:active, .articolo button:active
 {
     border-radius: 50px;
+    border: 1px solid rgb(160, 126, 126);
+
 }
 
 
